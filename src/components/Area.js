@@ -38,7 +38,7 @@ export default function Area() {
         </div>
         <div className="container1">
         <button className="btn mx-1" onClick={textupchange}>change to upper case</button>
-        <button className="btn mx-1" onClick={textlochange}>change to upper case</button>
+        <button className="btn mx-1" onClick={textlochange}>change to lower case</button>
         <button className="btn mx-1" onClick={clearall}>clear text</button>
         <button className="btn mx-1" onClick={reversetext}>Reverse text</button>
         <button className="btn mx-1" onClick={copytext}>copy text</button>
