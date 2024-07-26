@@ -48,6 +48,7 @@ export default function Area() {
         <p>You can read this in {0.08*text.split(" ").length} minutes</p>
         <h2>Preview</h2>
         <p>{text}</p>
+        <input type="range"></input>
     </div>
   )
 }
